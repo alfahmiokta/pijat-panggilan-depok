@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Noor Massage | Pijat Panggilan Terpercaya di Depok & Jabodetabek">
+    <meta property="og:title" content="Noor Massage | Pijat Panggilan Terpercaya di Depok & Jabodetabek">
+    <meta property="og:description" content="Noor Massage | Pijat Panggilan Terpercaya di Depok & Jabodetabek">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="URL_TO_YOUR_PAGE">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Noor Massage | Pijat Panggilan Terpercaya di Depok & Jabodetabek">
+    <meta name="twitter:description" content="Noor Massage | Pijat Panggilan Terpercaya di Depok & Jabodetabek">
+    <meta name="twitter:image" content="URL_TO_IMAGE">
+    <title>Noor Massage | Pijat Panggilan Terpercaya di Depok & Jabodetabek
+    </title>
+
+</head>
+<style>
+    body {
+        margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Text color */
+    background: url('bp.jpg') no-repeat center center fixed;
+    background-size: cover; /* Make the background cover the whole page */
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the navbar */
+        overflow: hidden;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar .logo img {
+        height: 90px; /* Adjust the size of the logo */
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 16px;
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background-color: #209669;
+        color: rgba(130, 243, 145, 0.521);
+    }
+    
+    /* Mobile Menu Style */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        width: 100%; /* Make sure the navbar takes up the full width */
+        padding: 0; /* Remove any default padding */
+        box-sizing: border-box; /* Include padding in the element's total width and height */
+    }
+    .navbar a {
+        display: block; /* Ensure each link takes up the full width available */
+        width: 100%; /* Make links span the full width of the navbar */
+        text-align: center; /* Center text horizontally */
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 13px; /* Slightly smaller font size */
+        box-sizing: border-box; /* Include padding in the element's total width and height */
+    }
+}
+
+    .content {
+        text-align: center;
+        padding: 50px;
+        background-color: rgba(19, 24, 18, 0.219); /* Semi-transparent background for the content */
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better separation */
+    }
+    .content h1 {
+            font-size: 2.5em; /* Larger font size for the heading */
+            margin: 0; /* Remove default margin */
+            color: #fff; /* White color for the heading text */
+        }
+        .content p {
+            font-size: 1.2em; /* Larger text size for paragraph */
+            line-height: 1.6; /* Increase line height for better readability */
+            color: #181515; /* White color for paragraph text */
+            margin-top: 20px; /* Space above the paragraph */
+            margin-bottom: 0; /* Remove default margin below paragraph */
+        }
+        .content br {
+            display: none; /* Hide line breaks if you don't need them */
+        }
+    
+
+    .servis {
+            background-color: rgba(37, 31, 31, 0.397); /* Background for services section */
+            padding: 90px 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .servis h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .servis-item {
+            margin: 10px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8); /* Light background for each service */
+            color: black;
+            border-radius: 8px;
+            display: inline-block;
+            width: calc(33% - 60px); /* Three items per row with space for margins */
+            vertical-align: top;
+            text-align: center; /* Center the text and price */
+        }
+        .servis-item h3 {
+            margin-top: 10px;
+            font-size: 1.5em; /* Font size for service titles */
+        }
+        .servis-item .price {
+            font-size: 1.2em; /* Font size for prices */
+            color: #209669; /* Price color */
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .servis-item {
+                width: calc(50% - 40px); /* Two items per row on smaller screens */
+            }
+        }
+        @media (max-width: 480px) {
+            .servis-item {
+                width: calc(100% - 40px); /* One item per row on very small screens */
+            }
+        }
+
+        .about {
+            background-color: rgba(71, 47, 47, 0.39); /* Semi-transparent background for about section */
+            padding: 50px 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .about h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .about p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .cara-order {
+    background-color: rgba(0, 0, 0, 0.349); /* Semi-transparent background */
+    padding: 50px 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.cara-order h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.cara-order p {
+    font-size: 1.2em; /* Slightly larger text for paragraph */
+    line-height: 1.6; /* Increased line height for better readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.cara-order ol {
+    list-style-type: decimal; /* Use numbers for the list items */
+    text-align: left; /* Align list items to the left */
+    display: inline-block; /* Center the list */
+    max-width: 600px; /* Limit the width of the list */
+    margin: 0 auto; /* Center the list */
+    padding: 0;
+}
+
+.cara-order li {
+    font-size: 1.1em; /* Slightly larger text for list items */
+    margin-bottom: 15px; /* Space below each list item */
+    line-height: 1.6; /* Increased line height for better readability */
+}
+
+.whatsapp-button {
+    display: inline-flex;
+            align-items: center;
+            justify-content: center; /* Center items horizontally */
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 1.0em;
+            margin-top: 0.5px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            line-height: 1; /* Adjust line-height to match content height */
+        }
+     
+        .whatsapp-button img {
+    margin-right: 10px; /* Space between logo and text */
+    height: 20px; /* Adjust height of the logo */
+    display: block; /* Prevents extra space below image */
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between images */
+    justify-content: center; /* Center the images */
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #0a0808; /* White text for the caption */
+    margin-top: 10px;
+}
+
+.instagram-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #E4405F; /* Instagram color */
+    display: inline-flex;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.instagram-link img {
+    margin-right: 10px; /* Space between logo and text */
+    height: 20px; /* Adjust height of the logo */
+    display: block; /* Prevents extra space below image */
+}
+
+ /* Your existing styles here */
+        
+        /* Add styles for the map section */
+        .map-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+        /* Style for the figure element */
+        figure {
+            text-align: center;
+            margin: 20px;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 10px;
+            display: inline-block;
+        }
+        /* Style for the image */
+        figure img {
+            width: 50%;
+            max-width: 200px;
+            border-radius: 8px;
+        }
+        /* Style for the figcaption */
+        figure figcaption {
+            font-size: 1.2em;
+            font-family: 'Arial', sans-serif;
+            color: #f0f0f0;
+            margin-top: 10px;
+            padding: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Adds a shadow to make text stand out */
+            border-top: 1px solid #ddd; /* Adds a border on top */
+        }
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="NOOR MASSAGE (1).png" alt="Logo"> <!-- Replace 'logo.png' with the path to your logo image -->
+        </div>
+        <a href="#home">Home</a>
+        <a href="#servis">Servis</a>
+        <a href="#about">About Us</a>
+        <a href="#cara-order">cara-Order</a>
+        <a href="#contact">Contact</a>
+    
+      
+    </div>
+    <a href="https://wa.me/+6281292131508" class="whatsapp-button" target="_blank">
+        <img src="what1.jfif" alt="WhatsApp" style="height: 30px; vertical-align: middle;">
+        pesan disini
+    </a>
+    <div class="content">
+        <h1>Jasa Pijat Panggilan Depok Terpercaya - Noor Massage</h1>
+
+
+    </div>
+
+    <div class="servis" id="servis">
+        <h2>Our Services</h2>
+        <div class="servis-item">
+            <h3>Totok punggung</h3>
+            <p class="servis-price">Rp.160.000 45 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>keseleo</h3>
+            <p class="servis-price">Rp.200.000 60 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>bekam</h3>
+            <p class="servis-price">Rp.160.000 60 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>pijat bekam</h3>
+            <p class="servis-price">Rp.280.000 90 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>Totok bekam</h3>
+            <p class="servis-price">Rp.280.000 90 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>full body massage</h3>
+            <p class="servis-price">Rp.140.000 60 menit</p>
+            <p class="servis-price">Rp.180.000 90 menit</p>
+            <p class="servis-price">Rp.220.000 120 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>pijat complet</h3>
+            <p class="servis-price">Rp.280.000 90 menit</p>
+            <p class="servis-price">Rp.310.000 120 menit</p>
+          
+        </div>
+        <div class="servis-item">
+            <h3>pijat refleksi</h3>
+            <p class="servis-price">Rp.180.000 90 menit</p>
+            <p class="servis-price">Rp.220.000 120 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>pijat kerokan</h3>
+            <p class="servis-price">Rp.180.000 90 menit</p>
+            <p class="servis-price">Rp.220.000 120 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>pijat totok wajah</h3>
+            <p class="servis-price">Rp.180.000 90 menit</p>
+            <p class="servis-price">Rp.220.000 120 menit</p>  
+        </div>
+        <div class="servis-item">
+            <h3>thai massage</h3>
+            <p class="servis-price">Rp.220.000 90 menit</p>
+            <p class="servis-price">Rp.250.000 120 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>pijat scrub</h3>
+            <p class="servis-price">Rp.180.000 90 menit</p>
+            <p class="servis-price">Rp.220.000 120 menit</p>
+        </div>
+        <div class="servis-item">
+            <h3>pijat anak/bayi</h3>
+            <p class="servis-price">Rp.150.000 45 menit (bayi)</p>
+            <p class="servis-price">Rp.130.000 45 menit (anak)</p>
+        </div>
+        <div class="servis-item">
+            <h3>pijat laktasi</h3>
+            <p class="servis-price">Rp.200.000 90 menit</p>
+            <p class="servis-price">Rp.240.000 120 menit</p>
+        </div>
+            <div class="servis-item">
+                <h3>pijat melahirkan</h3>
+                <p class="servis-price">Rp.200.000 90 menit</p>
+                <p class="servis-price">Rp.240.000 120 menit</p>
+               </div>
+        </div>
+    </div>
+    <div class="image-gallery">
+        <figure>
+            <img src="bekam.jpg" alt="Bekam therapy - Traditional cupping treatment" style="width: 50%; max-width: 150px; border-radius: 8px;">
+            <figcaption>Bekam - Terapi tradisional dengan metode bekam.</figcaption>
+        </figure>
+    
+        <figure>
+            <img src="pijat.jpg" alt="Terapi pijat relaksasi" style="width: 50%; max-width: 150px; border-radius: 8px;">
+            <figcaption>Pijat - Relaksasi tubuh untuk mengurangi ketegangan.</figcaption>
+        </figure>
+    
+        <figure>
+            <img src="Traditional_Thai_Massage_opti.jpg" alt="Traditional Thai Massage" style="width: 50%; max-width: 150px; border-radius: 8px;">
+            <figcaption>Traditional Thai Massage - Teknik pijat tradisional Thailand.</figcaption>
+        </figure>
+    
+        <figure>
+            <img src="laktasi.jpg" alt="Pijat Laktasi" style="width: 50%; max-width: 150px; border-radius: 8px;">
+            <figcaption>Pijat Laktasi - Dukungan pijat untuk ibu menyusui.</figcaption>
+        </figure>
+    
+        <figure>
+            <img src="pijat bayi.jpg" alt="Pijat Bayi" style="width: 50%; max-width: 150px; border-radius: 8px;">
+            <figcaption>Pijat Bayi - Pijat lembut untuk bayi dan anak kecil.</figcaption>
+        </figure>
+    
+        <figure>
+            <img src="body_scrub_wraps.jpg" alt="Body Scrub Wraps" style="width: 50%; max-width: 150px; border-radius: 8px;">
+            <figcaption>Body Scrub Wraps - Perawatan scrub tubuh untuk kulit yang bersih.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="totok.JPG" alt="Body Scrub Wraps" style="width: 50%; max-width: 150px; border-radius: 8px;">
+                <figcaption>Terapi Totok Punggung ini dilakukan dengan menggunakan jari-jari tangan untuk memberikan tekanan, goyangan, dan getaran pada titik-titik saraf tertentu di punggung..</figcaption>
+            </figure>.</figcaption>
+        </figure>
+    </div>
+    <div class="about" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Noor Massage! kami melayani area seluruh jabodetabek, kami memiliki trapis Pria dan Wanita. </p>
+        <p>kami berpengalama dan bersetifikat dalam biang massage,Pijat dan Bekam dan kami akan datang ketempat anda tanpa harus anda keluar rumah ke Hotel,Rumah,kos dan Appartement.</p>
+        <p>jadi jangan ragu untuk pesan Pijat/bekam di Noor Massage, <br> Area Layanan Pijat Panggilan sekitar citayem,sawangan,
+            pancoran mas,mampang depok,bojongsari,cinere,cimanggis,
+            cibubur,
+            ciracas,
+            jagakarsa, 
+            pasar minggu, mampang, tendean,cipete,
+            pasar rebo, </p> </p>
+    </div>
+    <div class="cara-order" id="cara-order">
+        <h2>Cara Order</h2>
+        <p>Untuk melakukan pemesanan, Anda dapat mengikuti langkah-langkah berikut:</p>
+        <ol>
+            <li>Hubungi kami melalui nomor telepon yang tertera di halaman kontak atau kirim pesan melalui formulir kontak di situs ini.</li>
+            <li>Berikan detail layanan yang Anda butuhkan, termasuk jenis pijat atau bekam, dan waktu yang diinginkan.</li>
+            <li>Kami akan mengonfirmasi jadwal dan detail pemesanan Anda.</li>
+            <li>anda bisa memilih trapis pria dan wanita.</li>
+            <li>jika anda memesan di atas jam 22.00 maka akan dkenakan biaya transport 50rb.</li>
+            <li>Tim kami akan datang ke lokasi yang telah disepakati pada waktu yang telah ditentukan.</li>
+            <li>Nikmati layanan pijat atau bekam kami dengan profesional dan penuh perhatian.</li>
+        </ol>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Untuk informasi lebih lanjut, Anda bisa menghubungi kami melalui:</p>
+        <p>Telepon: 081292131508</p>
+        <p>Email: info@noormassage.com</p>
+        <a href="https://www.instagram.com/pijat_panggilan_depok" class="instagram-link" target="_blank">
+            <img src="ig.jfif" alt="Instagram" style="height: 30px; vertical-align: middle;">
+            Follow us on Instagram
+        </a>
+    </div>
+
+     <!-- Your existing content here -->
+     <div class="map-container">
+        <h2>Our Location</h2>
+        <p class="map-label">pijat panggilan depok</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19873.6623130488!2d106.798232!3d-6.392982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69a7f8e5b86d7d%3A0x91b54bb2295f6bd3!2sDepok%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1632271710633!5m2!1sen!2sid" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    
+
+    <!-- Your existing content here -->
+</body>
+
+</html>
